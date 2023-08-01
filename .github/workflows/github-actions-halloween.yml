@@ -1,4 +1,4 @@
-name: ooc-eiyuden cron
+name: ooc-eiyuden halloween cron
 
 on:
   schedule:
