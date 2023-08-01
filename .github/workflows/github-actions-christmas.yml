@@ -1,4 +1,4 @@
-name: ooc-eiyuden cron
+name: ooc-eiyuden christmas cron
 
 on:
   schedule:
