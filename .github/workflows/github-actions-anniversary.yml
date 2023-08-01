@@ -1,4 +1,4 @@
-name: ooc-eiyuden cron
+name: ooc-eiyuden anniversary cron
 
 on:
   schedule:
