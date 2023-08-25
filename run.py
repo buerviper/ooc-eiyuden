@@ -3,6 +3,7 @@ from pathlib import Path
 import os
 import random
 import yaml
+import time
 
 
 # Access Mastodon instance
@@ -74,6 +75,9 @@ if name[-1].isdigit():
 else:
     # Get details of post
     media_description(name)
+
+# wait 10 seconds for larger files to upload
+time.sleep(10)
 
 # Post a new status update
 post_status_with_image(name)
