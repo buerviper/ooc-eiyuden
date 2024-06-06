@@ -12,7 +12,6 @@ mastodon = Mastodon(
     api_base_url='botsin.space'
 )
 
-
 # Function to post status with image
 def post_status_with_image(name, spoiler_warning="False", status="#eiyuden #EiyudenChronicle #100HeroesStrong #jrpg", sensitivity="False", language="en"):
     description_file = open("images/descriptions/" + name + ".yml", "r")
