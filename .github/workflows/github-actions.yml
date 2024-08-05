@@ -24,7 +24,7 @@ jobs:
         run: python run.py
   keepalive-job:
     name: Keepalive Workflow
-      uns-on: ubuntu-latest
+      runs-on: ubuntu-latest
     permissions:
       actions: write
     steps:
