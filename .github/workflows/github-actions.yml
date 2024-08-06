@@ -8,6 +8,7 @@ jobs:
   TriggerMastobot:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v4.7.0
         with:
@@ -24,9 +25,10 @@ jobs:
         run: python run.py
   keepalive-job:
     name: Keepalive Workflow
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       actions: write
     steps:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/keepalive-workflow@v2
+
