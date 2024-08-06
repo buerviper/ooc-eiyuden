@@ -2,7 +2,7 @@ name: ooc-eiyuden cron
 
 on:
   schedule:
-    - cron: 10 01 * * *
+    - cron: 20 01 * * *
 
 jobs:
   TriggerMastobot:
