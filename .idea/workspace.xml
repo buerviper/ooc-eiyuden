@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee63697-71f5-44cf-82b3-917dce195ac8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-anniversary.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-christmas.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions-halloween.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/github-actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/github-actions.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/descriptions/eiyuden-kickstarter-2021-new-year.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/eiyuden-01-reed-nowa-lets-spin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/eiyuden-kickstarter-2021-new-year.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-anniversary/descriptions/eiyuden-kickstarter-anniversary-1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-anniversary/descriptions/eiyuden-kickstarter-anniversary-2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-anniversary/eiyuden-kickstarter-anniversary-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-anniversary/eiyuden-kickstarter-anniversary-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-christmas/descriptions/eiyuden-kickstarter-christmas-2020.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-christmas/eiyuden-kickstarter-christmas-2020.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-christmas/eiyuden-kickstarter-happy-holidays-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-christmas/eiyuden-kickstarter-happy-holidays-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-christmas/eiyuden-kickstarter-happy-holidays-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-halloween/descriptions/eiyuden-kickstarter-happy-halloween-1.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-halloween/descriptions/eiyuden-kickstarter-happy-halloween-2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-halloween/descriptions/eiyuden-kickstarter-vampire-decision.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-halloween/eiyuden-kickstarter-happy-halloween-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-halloween/eiyuden-kickstarter-happy-halloween-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-newyear/descriptions/eiyuden-kickstarter-2021-new-year.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-newyear/descriptions/eiyuden-kickstarter-happy-new-year-2024.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images-newyear/eiyuden-kickstarter-happy-new-year-2024.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hVetsJ4U9249NDvLOZiORzhXvj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,13 +45,14 @@
   "keyToString": {
     "Python.add-descriptions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/matze/Dokumente/GitHub/ooc-eiyuden"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
       </set>
     </attachedChunks>
   </component>

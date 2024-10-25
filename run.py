@@ -13,14 +13,18 @@ mastodon = Mastodon(
 )
 
 # Function to post status with image
-def post_status_with_image(name, spoiler_warning="False", status="#eiyuden #EiyudenChronicle #100HeroesStrong #jrpg", sensitivity="False", language="en"):
+def post_status_with_image(name, spoiler_warning="False", status="#eiyuden #EiyudenChronicle #100HeroesStrong #jrpg", sensitivity=False, language="en"):
     description_file = open("images/descriptions/" + name + ".yml", "r")
     description = yaml.load(description_file, Loader=yaml.FullLoader)
     status = description["status"]
     spoiler_warning = description["spoiler_warning"]
     language = description["language"]
-    sensitivity = description["sensitivity"]
-    mastodon.status_post(status, media_ids=media_list, spoiler_text=spoiler_warning, sensitive=sensitivity,
+    if description["sensitivity"] == True:
+        sensitivity = True
+    mastodon.status_post(status,
+                         media_ids=media_list,
+                         spoiler_text=spoiler_warning,
+                         sensitive=sensitivity,
                          language=language)
 
 
