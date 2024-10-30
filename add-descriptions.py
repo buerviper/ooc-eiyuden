@@ -13,9 +13,15 @@ def generate_yaml_description(file_save, file_name):
         yaml.dump({'status': '#eiyuden #EiyudenChronicle #100HeroesStrong #jrpg', 'spoiler_warning': '', 'description': 'Screenshot of Eiyuden Chronicle.',
                    'language': '', 'sensitivity': ''}, file_save)
 
-for x in os.listdir("images"):
-    if os.path.isfile(os.path.join("images", x)):
-        name = Path("images/" + x).stem
-        if not os.path.exists("images/descriptions/"+name + ".yml"):
-            file_yml = open("images/descriptions/" + name + ".yml", "w")
-            generate_yaml_description(file_yml, name)
+def folder_choice(folder):
+    for x in os.listdir("images-" + folder):
+        if os.path.isfile(Path("images-" + folder + "/" + x)):
+            name = Path("images-" + folder + "/" + x).stem
+            if not os.path.exists("images-" + folder + "/descriptions/"+name + ".yml"):
+                file_yml = open("images-" + folder + "/descriptions/" + name + ".yml", "w")
+                generate_yaml_description(file_yml, name)
+
+folder_list = ["default", "anniversary-kickstarter", "anniversary-launch", "christmas", "halloween", "newyear"]
+
+for x in folder_list:
+    folder_choice(x)
