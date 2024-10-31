@@ -13,7 +13,7 @@ mastodon = Mastodon(
     api_base_url='botsin.space'
 )
 
-date = datetime.datetime.now
+date = datetime.datetime.now()
 
 if int(date.strftime("%d")) == 24 and int(date.strftime("%m")) == 12:
     post_date = "christmas"
