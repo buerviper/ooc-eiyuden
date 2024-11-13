@@ -10,7 +10,7 @@ import time
 # Access Mastodon instance
 mastodon = Mastodon(
     access_token=os.environ['MASTODON_ACCESS_TOKEN'],
-    api_base_url='mastodon.socia'
+    api_base_url='mastodon.social'
 )
 
 date = datetime.datetime.now()
