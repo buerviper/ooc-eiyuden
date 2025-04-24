@@ -22,7 +22,7 @@ elif int(date.strftime("%d")) == 31 and int(date.strftime("%m")) == 10:
 elif int(date.strftime("%d")) == 27 and int(date.strftime("%m")) == 7:
     post_date = "anniversary-kickstarter"
 elif int(date.strftime("%d")) == 23 and int(date.strftime("%m")) == 4:
-    post_date = "anniversary-release"
+    post_date = "anniversary-launch"
 elif int(date.strftime("%d")) == 31 and int(date.strftime("%m")) == 12:
     post_date = "newyear"
 else:
